@@ -1,0 +1,110 @@
+{
+    "67f88638da8312f81d663fb3": {
+        "QuestName": "Introduction",
+        "_id": "67f88638da8312f81d663fb3",
+        "acceptPlayerMessage": "67f88638da8312f81d663fb3 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "67f88638da8312f81d663fb3 changeQuestMessageText",
+        "completePlayerMessage": "67f88638da8312f81d663fb3 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "67f8effc87c194c4dba0e6cf",
+                    "index": 3,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "5449016a4bdc2d6f028b456f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [],
+            "Fail": []
+        },
+        "declinePlayerMessage": "67f88638da8312f81d663fb3 declinePlayerMessage",
+        "description": "67f88638da8312f81d663fb3 description",
+        "failMessageText": "67f88638da8312f81d663fb3 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/EOT.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "67f88638da8312f81d663fb3 name",
+        "note": "67f88638da8312f81d663fb3 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "id": "67f8eed6596872bbc055514b",
+                    "index": 0,
+                    "target": "54cb57776803fa99248b456e",
+                    "type": "TraderUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "67f8eed501e70ed05ee863f2",
+                    "index": 0,
+                    "target": "54cb50c76803fa8b248b4571",
+                    "type": "TraderUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "67f8eed4d9354a756ae2e193",
+                    "index": 0,
+                    "target": "58330581ace78e27b8b10cee",
+                    "type": "TraderUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "67f8eed3bb005894485d29f7",
+                    "index": 0,
+                    "target": "5935c25fb3acc3127c3d8cd9",
+                    "type": "TraderUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "67f8eec97b2e04ff18d421c6",
+                    "index": 0,
+                    "target": "5a7c2eca46aef81a7ca2145d",
+                    "type": "TraderUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "id": "67f8eec874d902b364de113c",
+                    "index": 0,
+                    "target": "5ac3b934156ae10c4430e83c",
+                    "type": "TraderUnlock",
+                    "unknown": false
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "67f88638da8312f81d663fb3 startedMessageText",
+        "status": 0,
+        "successMessageText": "67f88638da8312f81d663fb3 successMessageText",
+        "traderId": "674a81a635d90a2ff8692f0a",
+        "type": "Completion"
+    }
+}
