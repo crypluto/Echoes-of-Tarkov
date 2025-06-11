@@ -1,2 +1,2 @@
 # Echoes-of-Tarkov
-Echoes of Tarkov total
+all of Echoes
