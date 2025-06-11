@@ -1,2 +1,4 @@
 # Echoes-of-Tarkov
-Echoes of Tarkov total
+Echoes of Tarkov
+
+WIP
