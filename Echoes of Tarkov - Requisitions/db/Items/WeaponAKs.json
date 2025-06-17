@@ -10,6 +10,7 @@
 			},
 			"RecoilForceBack": 304,
 			"RecoilForceUp": 109,
+			"SingleFireRate": 550,
 			"Slots": [
 				{
 					"_name": "mod_gas_block",
@@ -362,9 +363,9 @@
 						"slotId": "mod_gas_block"
 					},
 					{
-						"_id": "68290e5763ce1b6d823162ef",
+						"_id": "6850534dd176f8ebdba0ccd4",
 						"_tpl": "649ec127c93611967b034957",
-						"parentId": "48de431f7092d13944709eca",
+						"parentId": "68290e102f2bde8b2f1154ed",
 						"slotId": "mod_handguard"
 					}
 				],
@@ -385,6 +386,7 @@
 			},
 			"RecoilForceBack": 394,
 			"RecoilForceUp": 139,
+			"SingleFireRate": 550,
 			"Slots": [
 				{
 					"_name": "mod_gas_block",
@@ -790,6 +792,7 @@
 			},
 			"RecoilForceBack": 299,
 			"RecoilForceUp": 106,
+			"SingleFireRate": 550,
 			"Slots": [
 				{
 					"_name": "mod_gas_block",
@@ -1187,6 +1190,7 @@
 			},
 			"RecoilForceBack": 299,
 			"RecoilForceUp": 106,
+			"SingleFireRate": 550,
 			"Slots": [
 				{
 					"_name": "mod_gas_block",
@@ -1580,7 +1584,8 @@
 			},
 			"weapFireType": [
 				"single"
-			]
+			],
+			"SingleFireRate": 550
 		},
 		"locales": {
 			"en": {

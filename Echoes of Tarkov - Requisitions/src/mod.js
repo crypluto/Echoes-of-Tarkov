@@ -47,7 +47,7 @@ const CustomWeaponPresets_1 = require("./CustomWeaponPresets");
 class AAAViperItems {
     Instance = new WTTInstanceManager_1.WTTInstanceManager();
     version;
-    modName = "AAAViperItems";
+    modName = "Echoes of Tarkov - Requisitions";
     config;
     //#region CustomBosses
     customItemService = new CustomItemService_1.CustomItemService();
@@ -73,7 +73,7 @@ class AAAViperItems {
     postDBLoad(container) {
         // Initialize the instance manager DO NOTHING ELSE BEFORE THIS
         this.Instance.postDBLoad(container);
-        // EVERYTHING AFTER HERE MUST USE THE INSTANCE
+        console.log(`\x1b[94m[Echoes of Tarkov] \x1b[93m Requisitions Loaded | Got something I'm supposed to deliver - your hands only.`);
         // Bosses
         this.customItemService.postDBLoad();
         this.customAssortSchemeService.postDBLoad();
