@@ -1,8 +1,8 @@
 {
     "684b257022b8260501141308": {
         "itemTplToClone": "5a7ae0c351dfba0017554310",
-        "parentId": "5447b5cf4bdc2d65278b4567",
-        "handbookParentId": "5b5f792486f77447ed5636b3",
+        "parentId": "HANDGUN",
+        "handbookParentId": "WEAPONS_PISTOLS",
         "overrideProperties": {
             "Prefab": {
                 "path": "WeaponPitViper/weapon_pitviper_container.bundle",
@@ -133,7 +133,8 @@
                                     "5a5f1ce64f39f90b401987bc",
                                     "560d657b4bdc2da74d8b4572",
                                     "6272370ee4013c5d7e31f418",
-                                    "6272379924e29f06af4d5ecb"
+                                    "6272379924e29f06af4d5ecb",
+                                    "68363c6fbfd14a9526e8601b"
                                 ],
                                 "Shift": 0
                             }
@@ -500,8 +501,8 @@
     },
     "684c82392d2fcfb8cf184096": {
         "itemTplToClone": "5a7ae0c351dfba0017554310",
-        "parentId": "5447b5cf4bdc2d65278b4567",
-        "handbookParentId": "5b5f792486f77447ed5636b3",
+        "parentId": "HANDGUN",
+        "handbookParentId": "WEAPONS_PISTOLS",
         "overrideProperties": {
             "Prefab": {
                 "path": "WeaponPitViper/weapon_sandviper_container.bundle",
@@ -632,7 +633,8 @@
                                     "5a5f1ce64f39f90b401987bc",
                                     "560d657b4bdc2da74d8b4572",
                                     "6272370ee4013c5d7e31f418",
-                                    "6272379924e29f06af4d5ecb"
+                                    "6272379924e29f06af4d5ecb",
+                                    "68363c6fbfd14a9526e8601b"
                                 ],
                                 "Shift": 0
                             }
@@ -954,8 +956,8 @@
     },
     "684e0b554db15cdca601b0eb": {
         "itemTplToClone": "5a7ae0c351dfba0017554310",
-        "parentId": "5447b5cf4bdc2d65278b4567",
-        "handbookParentId": "5b5f792486f77447ed5636b3",
+        "parentId": "HANDGUN",
+        "handbookParentId": "WEAPONS_PISTOLS",
         "overrideProperties": {
             "Prefab": {
                 "path": "WeaponPitViper/weapon_blackviper_container.bundle",
@@ -1087,7 +1089,8 @@
                                     "5a5f1ce64f39f90b401987bc",
                                     "560d657b4bdc2da74d8b4572",
                                     "6272370ee4013c5d7e31f418",
-                                    "6272379924e29f06af4d5ecb"
+                                    "6272379924e29f06af4d5ecb",
+                                    "68363c6fbfd14a9526e8601b"
                                 ],
                                 "Shift": 0
                             }
