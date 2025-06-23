@@ -17,6 +17,14 @@
             ]
         },
         {
+            "key": "Attachments/Handguards/handguard_ar15_bcm_alpha_13_keymod.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Ammo/patron_65cm_eldx.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1457,23 +1465,7 @@
             ]
         },
         {
-            "key": "WeaponP320/comp_39_delta_fde.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "WeaponP320/comp_39_micro_blk.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "WeaponP320/comp_39_micro_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1489,23 +1481,7 @@
             ]
         },
         {
-            "key": "WeaponP320/comp_39_ultra_fde.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "WeaponP320/comp_47_micro.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "WeaponP320/comp_47_micro_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1712,7 +1688,7 @@
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
-                {
+        {
             "key": "WeaponP320/barrel_36.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -1720,16 +1696,8 @@
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
-                        {
+        {
             "key": "WeaponP320/comp_36_micro_blk.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-                        {
-            "key": "WeaponP320/comp_36_micro_fde.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -1957,46 +1925,6 @@
             ]
         },
         {
-            "key": "Attachments/Receivers/reciever_glock_22_mos_slide.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Ammo/40sw/patron_40sw_fmj.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Ammo/40sw/patron_40sw_jhp.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Ammo/40sw/patron_40sw_plus_p.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "Ammo/40sw/patron_40sw_tracer.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "Attachments/Grips/pistolgrip_ar15_colt_c7a2.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2044,6 +1972,5 @@
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         }
-        
     ]
 }
