@@ -1,0 +1,782 @@
+{
+	"683246a74073e586d112af9f": {
+		"itemTplToClone": "5a6086ea4f39f99cd479502f",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_65cm_match.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 885,
+			"ArmorDamage": 51,
+			"PenetrationPower": 43,
+			"Damage": 77,
+			"BulletMassGram": 8,
+			"Tracer": false,
+			"TracerColor": "green",
+			"TracerDistance": 0,
+			"LightBleedingDelta": 0.35,
+			"HeavyBleedingDelta": 0.50,
+			"StackMaxSize": 60,
+			"Weight": 0.024,
+			"casingMass": 52.5,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber6.5x48",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "6.5x48mm Creedmoor Norma Match",
+				"shortName": "Match",
+				"description": "6.5x48mm Creedmoor is a centrefire rifle cartridge introduced by Hornady in 2007. The 6.5mm Creedmoor was designed specifically for long-range target shooting, although it has been used successfully in medium game hunting. Bullet-for-bullet, the 6.5mm Creedmoor achieves a slower muzzle velocity than longer cartridges such as the 6.5-284 Norma or magnum cartridges such as the 6.5mm Remington Magnum. However, with an overall length of 2.825 inches (71.8 mm), it can be chambered in short-action rifles."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 751,
+		"handbookPriceRoubles": 400,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 401,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"68325a63730b17c69ee176eb": {
+		"itemTplToClone": "5a6086ea4f39f99cd479502f",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_65cm_match.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 868,
+			"ArmorDamage": 45,
+			"PenetrationPower": 31,
+			"Damage": 91,
+			"BulletMassGram": 8.5,
+			"Tracer": true,
+			"TracerColor": "red",
+			"TracerDistance": 0,
+			"LightBleedingDelta": 0.35,
+			"HeavyBleedingDelta": 0.50,
+			"StackMaxSize": 60,
+			"Weight": 0.024,
+			"casingMass": 52,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber6.5x48",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "6.5x48mm Creedmoor HPBT Match",
+				"shortName": "HPBT",
+				"description": "6.5x48mm Creedmoor HPBT (Hollow Point Boat Tail) is a rifle round intended for use against big game at long range, and as such has very little penetration in favour of high flesh-based damage. Red Tracer version."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 411,
+		"handbookPriceRoubles": 220,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 221,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"6833baea86387d71b68abd6f": {
+		"itemTplToClone": "5a6086ea4f39f99cd479502f",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_65cm_eldx.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 891,
+			"BallisticCoeficient": 0.601,
+			"ArmorDamage": 31,
+			"PenetrationPower": 28,
+			"Damage": 75,
+			"BulletMassGram": 9,
+			"Tracer": false,
+			"TracerColor": "red",
+			"TracerDistance": 0,
+			"LightBleedingDelta": 0.35,
+			"HeavyBleedingDelta": 0.50,
+			"StackMaxSize": 60,
+			"Weight": 0.024,
+			"casingMass": 52,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber6.5x48",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "6.5x48mm Creedmoor Hornady ELD-X",
+				"shortName": "ELD-X",
+				"description": "6.5x48mm Creedmoor Hornady ELD-X (Extremely Low Drag - eXpanding) is a precision-engineered cartridge tailored for long-range hunting and tactical applications. Pairing the aerodynamic efficiency of the ELD-X projectile with a compact, high-efficiency 48mm case, this round delivers exceptional terminal performance, flat trajectories, and consistent expansion across a wide range of velocities."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 411,
+		"handbookPriceRoubles": 220,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 221,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"6833bae4baa31474639bea7d": {
+		"itemTplToClone": "5a6086ea4f39f99cd479502f",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_65cm_ap.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 839,
+			"BallisticCoeficient": 0.420,
+			"ArmorDamage": 83,
+			"PenetrationPower": 71,
+			"Damage": 64,
+			"BulletMassGram": 5.8,
+			"Tracer": false,
+			"TracerColor": "red",
+			"TracerDistance": 0,
+			"LightBleedingDelta": 0.35,
+			"HeavyBleedingDelta": 0.50,
+			"StackMaxSize": 60,
+			"Weight": 0.024,
+			"casingMass": 52,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber6.5x48",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "6.5x48mm Creedmoor Norma AP",
+				"shortName": "AP",
+				"description": "6.5x48mm Creedmoor Armor Piercing (AP) round is a high-performance, intermediate-caliber cartridge engineered for precision, penetration, and adaptability in modern combat scenarios. Designed to bridge the gap between traditional intermediate and full-power rifle cartridges, this round is optimized for long-range accuracy, superior ballistic performance, and armor penetration capabilities against hardened targets."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 411,
+		"handbookPriceRoubles": 220,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 221,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"6833ba38a1c9ff155c04e56f": {
+		"itemTplToClone": "5a6086ea4f39f99cd479502f",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_65cm_terminal_ascent.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 952,
+			"BallisticCoeficient": 0.532,
+			"ArmorDamage": 45,
+			"PenetrationPower": 31,
+			"Damage": 91,
+			"BulletMassGram": 8.4,
+			"Tracer": false,
+			"TracerColor": "red",
+			"TracerDistance": 0,
+			"LightBleedingDelta": 0.35,
+			"HeavyBleedingDelta": 0.50,
+			"StackMaxSize": 60,
+			"casingMass": 52,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber6.5x48",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "6.5x48mm Creedmoor Terminal Ascent",
+				"shortName": "FPTA",
+				"description": "Any hunt. Any range. Go beyond what you ever thought possible with Federal Premium Terminal Ascent Bonded construction penetrates deep on close targets, while the patented Slipstream™ polymer tip initiates expansion at velocities 200 fps lower than comparable designs. The bullet's long, sleek profile offers an extremely high ballistic coefficient, and its AccuChannel groove technology improves accuracy and minimizes drag. Available in a full selection of long-range hunting cartridges."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 411,
+		"handbookPriceRoubles": 220,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 221,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"6833b8cb54aa764b2deefdfe": {
+		"itemTplToClone": "5a6086ea4f39f99cd479502f",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_65cm_venari_sp.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 859,
+			"ArmorDamage": 24,
+			"PenetrationPower": 31,
+			"Damage": 101,
+			"BulletMassGram": 8,
+			"Tracer": false,
+			"TracerColor": "red",
+			"TracerDistance": 0,
+			"LightBleedingDelta": 0.35,
+			"HeavyBleedingDelta": 0.50,
+			"StackMaxSize": 60,
+			"casingMass": 52,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber6.5x48",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "6.5x48mm Creedmoor SIG Venari SP",
+				"shortName": "SP",
+				"description": "SIG SAUER Venari SP 6.5 Creedmoor 129 Grain Soft-Point Hunting Ammo takes the classic soft-point-style bullet and upgrades it with ultra-consistent, modern manufacturing. SIG offers this excellent performer in high-quality, reloadable brass cases. The 129 grain bullet has a muzzle velocity of 2820 fps and is designed for deer hunting, as well as big game hunting."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 411,
+		"handbookPriceRoubles": 220,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 221,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"6834e6f28f5570aec23ca0c2": {
+		"itemTplToClone": "5a6086ea4f39f99cd479502f",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_65cm_chp.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 829,
+			"ArmorDamage": 44,
+			"PenetrationPower": 31,
+			"Damage": 88,
+			"BulletMassGram": 8,
+			"Tracer": false,
+			"TracerColor": "red",
+			"TracerDistance": 0,
+			"LightBleedingDelta": 0.35,
+			"HeavyBleedingDelta": 0.50,
+			"StackMaxSize": 60,
+			"casingMass": 52,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber6.5x48",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "6.5x48mm Creedmoor C-HP",
+				"shortName": "C-HP",
+				"description": "6.5x48mm Creedmoor 120gr C-HP are specially designed to suit both the hunter and target shooter. These copper bullets are designed and manufactured in the UK. The Expansion cavity in these projectiles were designed to expand on immediate impact with the target."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 411,
+		"handbookPriceRoubles": 220,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 221,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"683d1b69d6f6778f205e9dfd": {
+		"itemTplToClone": "6529302b8c26af6326029fb7",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/ammo/patrons/patron_68x51_fmj.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 826,
+			"ArmorDamage": 30,
+			"PenetrationPower": 24,
+			"Damage": 99,
+			"StackMaxSize": 60,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber68x51",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "6.8x51mm SIG Venari SP",
+				"shortName": "SP",
+				"description": "The Sig Sauer Venari Soft Point ammunition is a high-performance hunting round designed for the .277 Sig Fury cartridge. This traditional soft-point hunting ammunition features a 130-grain soft-point bullet loaded into reloadable brass cases. With a muzzle velocity of 2710 fps and muzzle energy of 2120 ft-lbs, it delivers excellent terminal performance on deer-sized and big game animals. The Venari line combines SIG SAUER's renowned quality with the versatility needed for various hunting scenarios, making it an ideal choice for hunters seeking reliable and effective ammunition for their .277 Sig Fury rifles."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 751,
+		"handbookPriceRoubles": 529,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 4,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		]
+	},
+	"683a1844ac7f29765fc135b2": {
+		"itemTplToClone": "6529243824cbe3c74a05e5c1",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/ammo/patrons/patron_68x51.bundle",
+				"rcid": ""
+			},
+			"ArmorDamage": 24,
+			"PenetrationPower": 19,
+			"Damage": 105,
+			"StackMaxSize": 60,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber68x51",
+			"CanSellOnRagfair": false
+		},
+		"locales": {
+			"en": {
+				"name": "6.8x51mm SIG HiPower",
+				"shortName": "HP",
+				"description": "The 6.8x51mm SIG HiPower round has been custom designed by Echoes Defense to maximise damage when hitting a flesh-based target, maximising tunneling and cavity damage when penetrating flesh. \"Section 80, HiiiPower.\""
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 3305,
+		"handbookPriceRoubles": 1456,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 100
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 34,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 10
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 5
+			}
+		]
+	},
+	"683d1ba7b5a2063de35a8c39": {
+		"itemTplToClone": "5fc382b6d6fa9c00c571bbc3",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_86x43_ap.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 320,
+			"ArmorDamage": 79,
+			"PenetrationPower": 68,
+			"Damage": 77,
+			"StackMaxSize": 60,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber86x43",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"BulletMassGram": 22,
+			"CanSellOnRagfair": false
+		},
+		"locales": {
+			"en": {
+				"name": "8.6 Blackout AP-Subsonic",
+				"shortName": "AP-S",
+				"description": "A specialized subsonic armor-piercing cartridge, the 8.6x43 Blackout AP is engineered for suppressed rifles, combining stealth with punch. Featuring a hardened penetrator core, it maintains effectiveness against light armor and barriers at subsonic velocities (~1,000 fps). Ideal for special operations requiring quiet, hard-hitting firepower."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 751,
+		"handbookPriceRoubles": 529,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 39,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 1
+			}
+		]
+	},
+	"683d1e142cee4317689e75e4": {
+		"itemTplToClone": "5fc382b6d6fa9c00c571bbc3",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_86x43_copper.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 321,
+			"ArmorDamage": 64,
+			"PenetrationPower": 51,
+			"Damage": 82,
+			"StackMaxSize": 60,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber86x43",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"BulletMassGram": 18.4,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "8.6 Blackout Copper Solid",
+				"shortName": "Copper",
+				"description": "Designed for precision and terminal effectiveness, the 8.6 Blackout Copper Solid features a monolithic copper construction optimized for controlled tumbling on contact. This subsonic round delivers deep penetration and rapid energy transfer, making it ideal for hunting and tactical use where barrier-blind performance and consistent expansion are critical."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 5893,
+		"handbookPriceRoubles": 3450,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 24,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 1
+			}
+		]
+	},
+	"683d1ec4f7164f4f77ea7a85": {
+		"itemTplToClone": "5fc382b6d6fa9c00c571bbc3",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "Ammo/patron_86x43_rex.bundle",
+				"rcid": ""
+			},
+			"InitialSpeed": 314,
+			"ArmorDamage": 58,
+			"PenetrationPower": 45,
+			"Damage": 103,
+			"StackMaxSize": 60,
+			"ExaminedByDefault": true,
+			"Caliber": "Caliber86x43",
+			"DiscardingBlock": false,
+			"DiscardLimit": 0,
+			"BulletMassGram": 19,
+			"CanSellOnRagfair": true
+		},
+		"locales": {
+			"en": {
+				"name": "8.6 Blackout REX Subsonic",
+				"shortName": "REX",
+				"description": "The 8.6 Blackout REX (Rapidly Expanding) Subsonic is a heavy, subsonic round built for maximum energy transfer at low velocity. Featuring an expanding projectile designed to create massive wound channels, the REX excels in suppressed platforms where stealth and stopping power are essential. Ideal for close- to mid-range applications in hunting and tactical environments."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 8537,
+		"handbookPriceRoubles": 5140,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 39,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 2
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 1
+			}
+		]
+	}
+}

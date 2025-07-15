@@ -1,7 +1,7 @@
 {
     "name": "Echoes of Tarkov - Requisitions",
-    "author": "RheddElBozo",
-    "version": "1.0.3",
+    "author": "Pluto!",
+    "version": "1.0.5",
     "license": "MIT",
     "main": "src/mod.js",
     "sptVersion": "~3.11",

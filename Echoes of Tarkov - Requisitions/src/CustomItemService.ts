@@ -26,7 +26,7 @@ export class CustomItemService {
     }
 
     public postDBLoad(): void {
-        const configPath = path.join(__dirname, "../db/Items");
+        const configPath = path.join(__dirname, "../db/items");
         const configFiles = fs
             .readdirSync(configPath)
             .filter((file) => !file.includes("BaseItemReplacement"));

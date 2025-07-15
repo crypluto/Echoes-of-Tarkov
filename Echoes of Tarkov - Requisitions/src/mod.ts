@@ -10,17 +10,16 @@ import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
 import { ITraderConfig } from "@spt/models/spt/config/ITraderConfig";
 import { Traders } from "@spt/models/enums/Traders";
 
-// WTT / Viper Item Imports
+// Your other imports...
 import { WTTInstanceManager } from "./WTTInstanceManager";
 import { epicItemClass } from "./EpicsEdits";
 import { CustomItemService } from "./CustomItemService";
 import { CustomAssortSchemeService } from "./CustomAssortSchemeService";
 import { CustomWeaponPresets } from "./CustomWeaponPresets";
-
-// Trader Imports
 import { References } from "./Refs/References";
 import { TraderData } from "./Trader/TraderTemplate";
 import { TraderUtils } from "./Refs/Utils";
+import { CustomClothingService } from "./CustomClothingService";
 import * as baseJson from "../db/base.json";
 import * as questAssort from "../db/questassort.json";
 
@@ -28,19 +27,18 @@ class EchoesOfTarkovMod implements IPreSptLoadMod, IPostDBLoadMod {
 	private modName = "Echoes of Tarkov - Requisitions & hoser";
 	private version: string;
 	private debug = false;
+	private instanceManager: WTTInstanceManager = new WTTInstanceManager();
 
-	// WTT-related Services
 	private Instance: WTTInstanceManager = new WTTInstanceManager();
 	private customItemService: CustomItemService = new CustomItemService();
 	private customAssortSchemeService: CustomAssortSchemeService = new CustomAssortSchemeService();
 	private customWeaponPresets: CustomWeaponPresets = new CustomWeaponPresets();
 	private epicItemClass: epicItemClass = new epicItemClass();
+	private customClothingService: CustomClothingService = new CustomClothingService();
 
-	// Trader-related Services
 	private ref: References = new References();
 
 	public preSptLoad(container: DependencyContainer): void {
-		// WTT Initializations
 		this.Instance.preSptLoad(container, this.modName);
 		this.Instance.debug = this.debug;
 		this.getVersionFromJson();
@@ -50,34 +48,40 @@ class EchoesOfTarkovMod implements IPreSptLoadMod, IPostDBLoadMod {
 		this.customWeaponPresets.preSptLoad(this.Instance);
 		this.epicItemClass.preSptLoad(this.Instance);
 
-		// Trader Initializations
 		this.ref.preSptLoad(container);
 		const ragfair = this.ref.configServer.getConfig(ConfigTypes.RAGFAIR);
 		const traderConfig: ITraderConfig = this.ref.configServer.getConfig<ITraderConfig>(ConfigTypes.TRADER);
 		const traderUtils = new TraderUtils();
 		const traderData = new TraderData(traderConfig, this.ref, traderUtils);
 
+		this.instanceManager.preSptLoad(container, this.modName);
+		this.instanceManager.debug = this.debug;
+		// EVERYTHING AFTER HERE MUST USE THE INSTANCE
+
+		this.getVersionFromJson();
+
+		this.customClothingService.preSptLoad(this.instanceManager);
+
 		traderData.registerProfileImage();
 		traderData.setupTraderUpdateTime();
 
-		// Register hoser for Ragfair
 		Traders[baseJson._id] = baseJson._id;
 		ragfair.traders[baseJson._id] = true;
 	}
 
 	public postDBLoad(container: DependencyContainer): void {
-		// WTT Initializations
 		this.Instance.postDBLoad(container);
 
 		console.log(`\x1b[94m[Echoes of Tarkov] \x1b[93m Requisitions Loaded | Got something I'm supposed to deliver - your hands only.`);
-				console.log(`\x1b[94m[Echoes of Tarkov] \x1b[93m Hoser Loaded        | Don’t ask for a discount. You want magic, you pay sorcerer prices.`);
+		console.log(`\x1b[94m[Echoes of Tarkov] \x1b[93m Hoser Loaded        | Don’t ask for a discount. You want magic, you pay sorcerer prices.`);
 
 		this.customItemService.postDBLoad();
 		this.customAssortSchemeService.postDBLoad();
 		this.customWeaponPresets.postDBLoad();
 		this.epicItemClass.postDBLoad();
-
-		// Trader Setup
+		this.instanceManager.postDBLoad(container);
+		// EVERYTHING AFTER HERE MUST USE THE INSTANCE
+		this.customClothingService.postDBLoad();
 		this.ref.postDBLoad(container);
 		const traderConfig: ITraderConfig = this.ref.configServer.getConfig<ITraderConfig>(ConfigTypes.TRADER);
 		const traderUtils = new TraderUtils();
@@ -94,7 +98,6 @@ class EchoesOfTarkovMod implements IPreSptLoadMod, IPostDBLoadMod {
 			baseJson.location,
 			"Hoser is a profit-driven ex-Canadian combat engineer turned black market mod dealer, selling high-end gun parts to anyone with the cash—no loyalties, no questions."
 		);
-
 	}
 
 	private getVersionFromJson(): void {

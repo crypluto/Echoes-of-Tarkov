@@ -139,7 +139,7 @@ is the ITEMS ONLY preview version of the larger Echoes of Tarkov mod. This stand
 - AR-15 ergonomic wooden pistol grip
 - M16A2 5.56x45 upper reciever
 - M16A1 5.56x45 upper reciever
-- Echoes Defence M45A1 custom pistol slide with ACRO mount
+- Echoes Defense M45A1 custom pistol slide with ACRO mount
 - M1911A1 pistol slide with RMR mount
 - Tron's Judgement
 - Large Ammo Box
@@ -208,7 +208,7 @@ is the ITEMS ONLY preview version of the larger Echoes of Tarkov mod. This stand
 - FN SCAR-L MK.2 .300 Blackout upper receiver
 - Molot Arms VPO-208 .366 TKM carbine
 - Knight's Armament Company SR-25 E2 PR 6.5x48 assault rifle
-- Echoes Defence SR-8.6 8.6 Blackout assault rifle
+- Echoes Defense SR-8.6 8.6 Blackout assault rifle
 - HK UMP 9x19 submachine gun
 - HK UMP 9 9x19mm 30-round magazine
 - HK UMP 9 9x19mm 20-round magazine
