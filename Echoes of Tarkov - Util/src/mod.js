@@ -57,15 +57,15 @@ class BGReplace {
         };
         const options = [
             { filename: "bg.png", weight: 10 },
-            { filename: "bg_1.png", weight: 10 },
-            { filename: "bg_2.png", weight: 10 },
-            { filename: "bg_3.png", weight: 10 },
-            { filename: "bg_4.png", weight: 10 },
-            { filename: "bg_5.png", weight: 10 },
-            { filename: "bg_6.png", weight: 10 },
-            { filename: "bg_7.png", weight: 10 },
-            { filename: "bg_8.png", weight: 10 },
-            { filename: "bg_9.png", weight: 10 }
+            { filename: "bg_1.png", weight: 11 },
+            { filename: "bg_2.png", weight: 11 },
+            { filename: "bg_3.png", weight: 11 },
+            { filename: "bg_4.png", weight: 1 },
+            { filename: "bg_5.png", weight: 11 },
+            { filename: "bg_6.png", weight: 11 },
+            { filename: "bg_7.png", weight: 11 },
+            { filename: "bg_8.png", weight: 11 },
+            { filename: "bg_9.png", weight: 11 }
         ];
         const totalWeight = options.reduce((sum, option) => sum + option.weight, 0);
         const rand = Math.random() * totalWeight;
