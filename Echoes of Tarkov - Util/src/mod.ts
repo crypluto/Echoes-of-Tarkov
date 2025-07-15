@@ -46,15 +46,15 @@ class BGReplace implements IpreSptLoadMod, IPostDBLoadMod {
 
         const options = [
             { filename: "bg.png", weight: 10 },
-            { filename: "bg_1.png", weight: 10 },
-            { filename: "bg_2.png", weight: 10 },
-            { filename: "bg_3.png", weight: 10 },
-            { filename: "bg_4.png", weight: 10 },
-            { filename: "bg_5.png", weight: 10 },
-            { filename: "bg_6.png", weight: 10 },
-            { filename: "bg_7.png", weight: 10 },
-            { filename: "bg_8.png", weight: 10 },
-            { filename: "bg_9.png", weight: 10 }
+            { filename: "bg_1.png", weight: 11 },
+            { filename: "bg_2.png", weight: 11 },
+            { filename: "bg_3.png", weight: 11 },
+            { filename: "bg_4.png", weight: 1 },
+            { filename: "bg_5.png", weight: 11 },
+            { filename: "bg_6.png", weight: 11 },
+            { filename: "bg_7.png", weight: 11 },
+            { filename: "bg_8.png", weight: 11 },
+            { filename: "bg_9.png", weight: 11 }
         ];
 
         const totalWeight = options.reduce((sum, option) => sum + option.weight, 0);
@@ -82,7 +82,7 @@ class BGReplace implements IpreSptLoadMod, IPostDBLoadMod {
         const db = container.resolve<DatabaseServer>("DatabaseServer");
         const tables = db.getTables();
         const botTypes = tables.bots.types;
-        const customNames = ["RheddElBozo", "Pigeon", "Pijinski", "eukyre"];
+        const customNames = ["Pluto!", "Pigeon", "Pijinski", "eukyre"];
 
         const factions = ["usec", "bear"];
         for (const faction of factions) {
@@ -122,7 +122,7 @@ class BGReplace implements IpreSptLoadMod, IPostDBLoadMod {
 
         const presets: WeatherPreset[] = [
             {
-                name: "hurricane",
+                name: "Hurricane",
                 weight: 50,
                 apply: (seasonConfig) => {
                     seasonConfig.clouds.weights = seasonConfig.clouds.values.map((_, i, arr) => i === arr.length - 1 ? 1 : 0);

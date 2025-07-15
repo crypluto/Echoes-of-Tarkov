@@ -89,7 +89,7 @@ class BGReplace {
         const db = container.resolve("DatabaseServer");
         const tables = db.getTables();
         const botTypes = tables.bots.types;
-        const customNames = ["RheddElBozo", "Pigeon", "Pijinski", "eukyre"];
+        const customNames = ["Pluto!", "Pigeon", "Pijinski", "eukyre"];
         const factions = ["usec", "bear"];
         for (const faction of factions) {
             const botType = botTypes[faction];
@@ -125,7 +125,7 @@ class BGReplace {
         const weatherData = JSON.parse(fs.readFileSync(weatherPath, "utf-8"));
         const presets = [
             {
-                name: "hurricane",
+                name: "Hurricane",
                 weight: 50,
                 apply: (seasonConfig) => {
                     seasonConfig.clouds.weights = seasonConfig.clouds.values.map((_, i, arr) => i === arr.length - 1 ? 1 : 0);
