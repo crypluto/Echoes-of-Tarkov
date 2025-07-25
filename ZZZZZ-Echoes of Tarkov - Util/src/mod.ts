@@ -31,7 +31,7 @@ class BGReplace implements IpreSptLoadMod, IPostDBLoadMod {
     }
 
     public postDBLoad(container: DependencyContainer): void {
-        this.printRainbowLog(); // Rainbow log now prints first
+        this.printRainbowLog();
 
         const imageRouter = container.resolve<ImageRouter>("ImageRouter");
         const logger = container.resolve<ILogger>("WinstonLogger");
@@ -81,9 +81,12 @@ class BGReplace implements IpreSptLoadMod, IPostDBLoadMod {
 
         const db = container.resolve<DatabaseServer>("DatabaseServer");
         const tables = db.getTables();
+
+        // NEW: patch BackgroundColor in DB memory
+        this.patchBackgroundColorsInDB(tables);
+
         const botTypes = tables.bots.types;
         const customNames = ["Pluto!", "Pigeon", "Pijinski", "eukyre"];
-
         const factions = ["usec", "bear"];
         for (const faction of factions) {
             const botType = botTypes[faction];
@@ -191,6 +194,21 @@ class BGReplace implements IpreSptLoadMod, IPostDBLoadMod {
 
         fs.writeFileSync(weatherPath, JSON.stringify(weatherData, null, 4));
         debugLog("Weather config patched.");
+    }
+
+    private patchBackgroundColorsInDB(obj: any, depth = 0): void {
+        if (depth > 20 || typeof obj !== "object" || obj === null) return;
+
+        for (const key of Object.keys(obj)) {
+            const value = obj[key];
+
+            if (key === "BackgroundColor" && typeof value === "string") {
+                obj[key] = "black";
+                if (this.config.debugLogging) {}
+            } else if (typeof value === "object") {
+                this.patchBackgroundColorsInDB(value, depth + 1);
+            }
+        }
     }
 
     private findWeatherJson(startDir: string): string | null {

@@ -46,7 +46,7 @@ class BGReplace {
         console.log(`\x1b[94m[Echoes of Tarkov] \x1b[93m Loaded              | \x1b[91mA\x1b[0m\x1b[93m \x1b[0m\x1b[92mM\x1b[0m\x1b[96mo\x1b[0m\x1b[94md\x1b[0m\x1b[95m \x1b[0m\x1b[91mb\x1b[0m\x1b[93my\x1b[0m\x1b[92m \x1b[0m\x1b[96mR\x1b[0m\x1b[94mh\x1b[0m\x1b[95me\x1b[0m\x1b[91md\x1b[0m\x1b[93md\x1b[0m\x1b[92mE\x1b[0m\x1b[96ml\x1b[0m\x1b[94mB\x1b[0m\x1b[95mo\x1b[0m\x1b[91mz\x1b[0m\x1b[93mo\x1b[0m\x1b[92m,\x1b[0m \x1b[96mE\x1b[0m\x1b[94mu\x1b[0m\x1b[95mk\x1b[0m\x1b[91my\x1b[0m\x1b[93mr\x1b[0m\x1b[92me\x1b[0m\x1b[96m,\x1b[0m \x1b[94ma\x1b[0m\x1b[95mn\x1b[0m\x1b[91md\x1b[0m \x1b[93mP\x1b[0m\x1b[92mi\x1b[0m\x1b[96mg\x1b[0m\x1b[94me\x1b[0m\x1b[95mo\x1b[0m\x1b[91mn\x1b[0m`);
     }
     postDBLoad(container) {
-        this.printRainbowLog(); // Rainbow log now prints first
+        this.printRainbowLog();
         const imageRouter = container.resolve("ImageRouter");
         const logger = container.resolve("WinstonLogger");
         this.loadConfig(logger);
@@ -56,16 +56,16 @@ class BGReplace {
             }
         };
         const options = [
-            { filename: "bg.png", weight: 10 },
-            { filename: "bg_1.png", weight: 11 },
-            { filename: "bg_2.png", weight: 11 },
-            { filename: "bg_3.png", weight: 11 },
+            { filename: "bg.png", weight: 19 },
+            { filename: "bg_1.png", weight: 10 },
+            { filename: "bg_2.png", weight: 10 },
+            { filename: "bg_3.png", weight: 10 },
             { filename: "bg_4.png", weight: 1 },
-            { filename: "bg_5.png", weight: 11 },
-            { filename: "bg_6.png", weight: 11 },
-            { filename: "bg_7.png", weight: 11 },
-            { filename: "bg_8.png", weight: 11 },
-            { filename: "bg_9.png", weight: 11 }
+            { filename: "bg_5.png", weight: 10 },
+            { filename: "bg_6.png", weight: 10 },
+            { filename: "bg_7.png", weight: 10 },
+            { filename: "bg_8.png", weight: 10 },
+            { filename: "bg_9.png", weight: 10 }
         ];
         const totalWeight = options.reduce((sum, option) => sum + option.weight, 0);
         const rand = Math.random() * totalWeight;
@@ -88,6 +88,8 @@ class BGReplace {
         }
         const db = container.resolve("DatabaseServer");
         const tables = db.getTables();
+        // NEW: patch BackgroundColor in DB memory
+        this.patchBackgroundColorsInDB(tables);
         const botTypes = tables.bots.types;
         const customNames = ["Pluto!", "Pigeon", "Pijinski", "eukyre"];
         const factions = ["usec", "bear"];
@@ -188,6 +190,20 @@ class BGReplace {
         }
         fs.writeFileSync(weatherPath, JSON.stringify(weatherData, null, 4));
         debugLog("Weather config patched.");
+    }
+    patchBackgroundColorsInDB(obj, depth = 0) {
+        if (depth > 20 || typeof obj !== "object" || obj === null)
+            return;
+        for (const key of Object.keys(obj)) {
+            const value = obj[key];
+            if (key === "BackgroundColor" && typeof value === "string") {
+                obj[key] = "black";
+                if (this.config.debugLogging) { }
+            }
+            else if (typeof value === "object") {
+                this.patchBackgroundColorsInDB(value, depth + 1);
+            }
+        }
     }
     findWeatherJson(startDir) {
         let dir = startDir;
