@@ -13,9 +13,9 @@
 		},
 		"locales": {
 			"en": {
-				"name": "Trijicon SRO reflex sight",
-				"shortName": "SRO",
-				"description": "The Trijicon SRO® (Specialized Reflex Optic) is designed with a maximized field of view and a clean, crisp red dot that deliver improved pistol accuracy in competitive-shooting and target-shooting applications. It is engineered with care to ensure that the optic can sustain plenty of abuse. Manufactured by Trijicon."
+				"name": "Trijicon SRO2 reflex sight",
+				"shortName": "SRO2",
+				"description": "The Trijicon SRO2® (Specialized Reflex Optic) is designed with a maximized field of view and a clean, crisp red dot that deliver improved pistol accuracy in competitive-shooting and target-shooting applications. It is engineered with care to ensure that the optic can sustain plenty of abuse. Manufactured by Trijicon."
 			}
 		},
 		"clearClonedProps": false,
@@ -98,9 +98,9 @@
 		},
 		"locales": {
 			"en": {
-				"name": "Trijicon SRO reflex sight (FDE)",
-				"shortName": "SRO",
-				"description": "The Trijicon SRO® (Specialized Reflex Optic) is designed with a maximized field of view and a clean, crisp red dot that deliver improved pistol accuracy in competitive-shooting and target-shooting applications. It is engineered with care to ensure that the optic can sustain plenty of abuse. Manufactured by Trijicon. Flat Dark Earth version."
+				"name": "Trijicon SRO2 reflex sight (FDE)",
+				"shortName": "SRO2",
+				"description": "The Trijicon SRO2® (Specialized Reflex Optic) is designed with a maximized field of view and a clean, crisp red dot that deliver improved pistol accuracy in competitive-shooting and target-shooting applications. It is engineered with care to ensure that the optic can sustain plenty of abuse. Manufactured by Trijicon. Flat Dark Earth version."
 			}
 		},
 		"clearClonedProps": false,
@@ -505,8 +505,7 @@
 		"modSlot": [
 			"mod_scope",
 			"mod_scope_000",
-			"mod_scope_001",
-			"mod_mount"
+			"mod_scope_001"
 		],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],

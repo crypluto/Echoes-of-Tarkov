@@ -908,7 +908,7 @@
 					]
 				],
 				"AnimationVariantsNumber": 0,
-				"BackgroundColor": "black",
+				"BackgroundColor": "blue",
 				"BlocksCollapsible": false,
 				"BlocksFolding": false,
 				"CalibrationDistances": [
@@ -1033,7 +1033,7 @@
 		],
 		"barterScheme": [
 			{
-				"count": 3485,
+				"count": 69420,
 				"_tpl": "ROUBLES"
 			}
 		],

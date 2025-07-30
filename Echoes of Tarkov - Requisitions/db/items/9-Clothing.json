@@ -14,7 +14,7 @@
 			"IsUndiscardable": false,
 			"InsuranceDisabled": false,
 			"DiscardLimit": 1,
-			"BackgroundColor": "black"
+			"BackgroundColor": "violet"
 		},
 		"locales": {
 			"en": {
@@ -278,7 +278,7 @@
 				"path": "clothing/keegan.bundle",
 				"rcid": ""
 			},
-			"BackgroundColor": "black",
+			"BackgroundColor": "violet",
 			"Grids": []
 		},
 		"locales": {
@@ -336,6 +336,9 @@
 				"path": "clothing/m50.bundle",
 				"rcid": ""
 			},
+			"ConflictingItems": [
+				"59e7715586f7742ee5789605"
+			],
 			"Weight": 0.6,
 			"Height": 2,
 			"Width": 2,
@@ -655,7 +658,7 @@
 			"InsuranceDisabled": false,
 			"DiscardLimit": 1,
 			"Grids": [],
-			"BackgroundColor": "black"
+			"BackgroundColor": "violet"
 		},
 		"locales": {
 			"en": {
@@ -724,7 +727,7 @@
 			"IsUndiscardable": false,
 			"InsuranceDisabled": false,
 			"DiscardLimit": 1,
-			"BackgroundColor": "black",
+			"BackgroundColor": "violet",
 			"Grids": []
 		},
 		"locales": {
@@ -834,7 +837,7 @@
 				"NeckFront"
 			],
 			"BlocksEyewear": false,
-			"BackgroundColor": "black"
+			"BackgroundColor": "violet"
 		},
 		"locales": {
 			"en": {

@@ -1,0 +1,438 @@
+{
+    "6877c5b45aa830fbbd30287d": {
+        "itemTplToClone": "5a7ae0c351dfba0017554310",
+        "parentId": "5447b5cf4bdc2d65278b4567",
+        "handbookParentId": "5b5f792486f77447ed5636b3",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "assets/content/weapons/glock17/weapon_glock_glock_17_gen3_9x19_container.bundle",
+                "rcid": ""
+            },
+            "defAmmo": "5e81f423763d9f754677bf2e",
+            "Slots": [
+                {
+                    "_id": "6877c5bad362f8f438fdd88b",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_barrel",
+                    "_parent": "6877c5b45aa830fbbd30287d",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6877ca805df68471d242e39c",
+                                    "6877cb6f91986cdeb43d6b8d",
+                                    "6877cbd051bbc7ad6b75cfc0"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                },
+                {
+                    "_id": "6877c5c2270c65a547205fde",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_pistol_grip",
+                    "_parent": "6877c5b45aa830fbbd30287d",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a7b4960e899ef197b331a2d"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6877c5c6cc67882d8cf6406a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_reciever",
+                    "_parent": "6877c5b45aa830fbbd30287d",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a7afa25e899ef00135e31b0"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                },
+                {
+                    "_id": "6877c5cc85938f6c32c065be",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_magazine",
+                    "_parent": "6877c5b45aa830fbbd30287d",
+                    "_props": {
+                        "filters": [
+                            {
+                                "AnimationIndex": 0,
+                                "Filter": [
+                                    "5fb651b52b1b027b1f50bcff",
+                                    "5fb651dc85f90547f674b6f4"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                },
+                {
+                    "_id": "6877c5cf47afd0c4fff9f2a2",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical",
+                    "_parent": "6877c5b45aa830fbbd30287d",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a7ad74e51dfba0015068f45",
+                                    "5a800961159bd4315e3a1657",
+                                    "5cc9c20cd7f00c001336c65d",
+                                    "5d2369418abbc306c62e0c80",
+                                    "5b07dd285acfc4001754240d",
+                                    "56def37dd2720bec348b456a",
+                                    "5a7b483fe899ef0016170d15",
+                                    "5a5f1ce64f39f90b401987bc",
+                                    "560d657b4bdc2da74d8b4572",
+                                    "5a7ad4af51dfba0013379717",
+                                    "5a7b4900e899ef197b331a2a",
+                                    "6272370ee4013c5d7e31f418",
+                                    "6272379924e29f06af4d5ecb"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6877c5d5e87f9331a870b70a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_mount",
+                    "_parent": "6877c5b45aa830fbbd30287d",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a7ad55551dfba0015068f42"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "6877c5daca78f44fb176b100",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_stock",
+                    "_parent": "6877c5b45aa830fbbd30287d",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5d1c702ad7ad1a632267f429"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ],
+            "Chambers": [
+                {
+                    "_id": "6877c5df704a02f9690173f0",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "patron_in_weapon",
+                    "_parent": "6877c5b45aa830fbbd30287d",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5e81f423763d9f754677bf2e",
+                                    "5efb0cabfb3e451d70735af5",
+                                    "5efb0fc6aeb21837e749c801",
+                                    "5efb0d4f4bc50b58e81710f3",
+                                    "5ea2a8e200685063ec28c05a"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d4af244bdc2d962f8b4571",
+                    "_required": false
+                }
+            ],
+            "ammoCaliber": "Caliber1143x23ACP",
+            "ConflictingItems": [
+                "5a7b32a2e899ef00135e345a",
+                "5a7ad74e51dfba0015068f45"
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Glock 41 45ACP pistol",
+                "shortName": "Glock 41",
+                "description": "Glock 41 is an Austrian pistol designed by Glock company for the Austrian army purposes. Thanks to both its impressive combat characteristics and reliablity it gained wide recognition and popularity as a police, shooting sports and civilian self-defense weapon."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 39950,
+        "handbookPriceRoubles": 17500,
+        "addtoTraders": true,
+        "traderId": "MECHANIC",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 20238,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 250
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 150
+            }
+        ],
+        "masteries": false,
+        "masterySections": [
+            {
+                "Name": "r700",
+                "Templates": [
+                    "68324e7849e4f772900f58e8"
+                ]
+            }
+        ],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "6877ca805df68471d242e39c": {
+        "itemTplToClone": "5a6b5f868dc32e000a311389",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "assets/content/items/mods/barrels/barrel_glock_glock_114mm_9x19_std.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Glock 21 45ACP Barrel",
+                "shortName": "G21 Barrel",
+                "description": "A standard barrel for the Glock 21 45acp pistol."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 3242,
+        "handbookPriceRoubles": 4324,
+        "addtoTraders": true,
+        "traderId": "MECHANIC",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 20238,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 250
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 150
+            }
+        ],
+        "masteries": false,
+        "masterySections": [],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "6877cbd051bbc7ad6b75cfc0": {
+        "itemTplToClone": "5a6b5b8a8dc32e001207faf3",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "assets/content/items/mods/barrels/barrel_glock_alpha_wolf_114mm_threaded_9x19.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_name": "mod_muzzle",
+                    "_id": "6877cc08ac185ff416fd3474",
+                    "_parent": "6877cbd051bbc7ad6b75cfc0",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5fb65424956329274326f316",
+                                    "5fc4b992187fea44d52edaa9",
+                                    "5fb6548dd1409e5ca04b54f9",
+                                    "68343b29f48104d3a6265db3",
+                                    "68343c10334d72dc0066a8f3",
+                                    "66e6079e3436b2699e9d7d8c"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Glock 21 45ACP Threaded Barrel",
+                "shortName": "G21 Thread",
+                "description": "A Threaded barrel for the Glock 21 45acp pistol."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 3242,
+        "handbookPriceRoubles": 4324,
+        "addtoTraders": true,
+        "traderId": "MECHANIC",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 6238,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 250
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 150
+            }
+        ],
+        "masteries": false,
+        "masterySections": [],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    },
+    "6877cb6f91986cdeb43d6b8d": {
+        "itemTplToClone": "5a6b60158dc32e000a31138b",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "assets/content/items/mods/barrels/barrel_glock_glock_114mm_9x19_compensated.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Glock 21 45ACP Compensated Barrel",
+                "shortName": "G12 Comp",
+                "description": "A Compensated barrel for the Glock 21 45acp pistol."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 3242,
+        "handbookPriceRoubles": 4324,
+        "addtoTraders": true,
+        "traderId": "MECHANIC",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 5238,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 250
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 150
+            }
+        ],
+        "masteries": false,
+        "masterySections": [],
+        "addweaponpreset": false,
+        "weaponpresets": []
+    }
+}

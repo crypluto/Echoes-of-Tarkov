@@ -34,6 +34,7 @@
 		"handbookPriceRoubles": 1000000,
 		"addtoStaticLootContainers": false,
 		"addtoragfair": false,
+		"addtoHallOfFame": true,
 		"StaticLootContainers": []
 	},
 	"674a83abcb7ed7b7ca176fed": {
@@ -331,7 +332,8 @@
 			"IsUndiscardable": true,
 			"addtoSpecialSlots": true,
 			"CanSellOnRagfair": false,
-			"DiscardLimit": 1
+			"DiscardLimit": 1,
+			"addtoHallOfFame": true
 		},
 		"locales": {
 			"en": {
@@ -372,6 +374,7 @@
 			"IsUndiscardable": true,
 			"addtoSpecialSlots": true,
 			"CanSellOnRagfair": false,
+			"addtoHallOfFame": true,
 			"DiscardLimit": 1
 		},
 		"locales": {

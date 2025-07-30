@@ -1,0 +1,1467 @@
+{
+    "68814661d46adeabb1fd34e4": {
+        "itemTplToClone": "5bae13bad4351e00320204af",
+        "parentId": "STOCK",
+        "handbookParentId": "MOD_STOCK",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_stock_1.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5c0e2ff6d174af02a1659d4a",
+                "5a33e75ac4a2826c6e06d759"
+            ],
+            "Weight": 1.95,
+            "Recoil": -25,
+            "Ergonomics": 5,
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_id": "68815234590b04bd0115f64a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_rear",
+                    "_parent": "68814661d46adeabb1fd34e4",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "68814985f041a9d5029b5409",
+                                    "6881499888decf78e3f59ca7",
+                                    "5ae099925acfc4001a5fc7b3",
+                                    "6881497a58d2d3fa97aa6f3d"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense Mosin Nagant Club Stock",
+                "shortName": "Club",
+                "description": "A stock manufactured in 1984 by Echoes Defense. Heavy"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [
+            "5c0e2ff6d174af02a1659d4a",
+            "5a33e75ac4a2826c6e06d759"
+        ],
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 3400,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3400,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "688147178f10f169ad284c59": {
+        "itemTplToClone": "5bae13bad4351e00320204af",
+        "parentId": "STOCK",
+        "handbookParentId": "MOD_STOCK",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_stock_2.bundle",
+                "rcid": ""
+            },
+            "Weight": 1.65,
+            "Recoil": -21,
+            "Ergonomics": 13,
+            "ConflictingItems": [
+                "5c0e2ff6d174af02a1659d4a",
+                "5a33e75ac4a2826c6e06d759"
+            ],
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_id": "6881524725987d08c45bdd35",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_rear",
+                    "_parent": "688147178f10f169ad284c59",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "68814985f041a9d5029b5409",
+                                    "6881499888decf78e3f59ca7",
+                                    "5ae099925acfc4001a5fc7b3",
+                                    "6881497a58d2d3fa97aa6f3d"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense Precision Stock",
+                "shortName": "Precision",
+                "description": "A Stock manufactured by Echoes Defense with the design requests of John Tarkovic."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [
+            "5c0e2ff6d174af02a1659d4a",
+            "5a33e75ac4a2826c6e06d759"
+        ],
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 3400,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3400,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "6881470e381d0bec3a5c1634": {
+        "itemTplToClone": "5bae13bad4351e00320204af",
+        "parentId": "STOCK",
+        "handbookParentId": "MOD_STOCK",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_stock_3.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5c0e2ff6d174af02a1659d4a",
+                "5a33e75ac4a2826c6e06d759"
+            ],
+            "Weight": 1.15,
+            "Recoil": -13,
+            "Ergonomics": 14,
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_id": "68815260b81f19036b24ca19",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_rear",
+                    "_parent": "6881470e381d0bec3a5c1634",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "68814985f041a9d5029b5409",
+                                    "6881499888decf78e3f59ca7",
+                                    "5ae099925acfc4001a5fc7b3",
+                                    "6881497a58d2d3fa97aa6f3d"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense \"Steampunk\" Stock",
+                "shortName": "Steampunk",
+                "description": "A Stock manufactured by Echoes Defense for the Mosin Nagant"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [
+            "5c0e2ff6d174af02a1659d4a",
+            "5a33e75ac4a2826c6e06d759"
+        ],
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 3400,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3400,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "68814705330d386beedb261a": {
+        "itemTplToClone": "5bae13bad4351e00320204af",
+        "parentId": "STOCK",
+        "handbookParentId": "MOD_STOCK",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_stock_4.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5c0e2ff6d174af02a1659d4a",
+                "5a33e75ac4a2826c6e06d759"
+            ],
+            "Weight": 1.60,
+            "Recoil": -17,
+            "Ergonomics": 16,
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_id": "6881527423e22745dfd9cab8",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_rear",
+                    "_parent": "68814705330d386beedb261a",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "68814985f041a9d5029b5409",
+                                    "6881499888decf78e3f59ca7",
+                                    "5ae099925acfc4001a5fc7b3",
+                                    "6881497a58d2d3fa97aa6f3d"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense \"Lone Rider\" Stock",
+                "shortName": "Lone Rider",
+                "description": "A Stock manufactured by Echoes Defense with the design requests of Rhedd."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [
+            "5c0e2ff6d174af02a1659d4a",
+            "5a33e75ac4a2826c6e06d759"
+        ],
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 3400,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3400,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "688146faa1fe329f3764fc42": {
+        "itemTplToClone": "5bae13bad4351e00320204af",
+        "parentId": "STOCK",
+        "handbookParentId": "MOD_STOCK",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_stock_5.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5c0e2ff6d174af02a1659d4a",
+                "5a33e75ac4a2826c6e06d759"
+            ],
+            "Weight": 1.80,
+            "Recoil": -23,
+            "Ergonomics": 9,
+            "CanSellOnRagfair": true,
+            "Slots": [
+                {
+                    "_id": "68815282def60594a605f3d6",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_rear",
+                    "_parent": "688146faa1fe329f3764fc42",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "68814985f041a9d5029b5409",
+                                    "6881499888decf78e3f59ca7",
+                                    "5ae099925acfc4001a5fc7b3",
+                                    "6881497a58d2d3fa97aa6f3d"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense \"EBlock\" Stock",
+                "shortName": "EBlock",
+                "description": "A Stock manufactured by Echoes Defense for the Mosin Nagant"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [
+            "5c0e2ff6d174af02a1659d4a",
+            "5a33e75ac4a2826c6e06d759"
+        ],
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 3400,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3400,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "688146f0804ed8230483b927": {
+        "itemTplToClone": "5bae13bad4351e00320204af",
+        "parentId": "STOCK",
+        "handbookParentId": "MOD_STOCK",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_stock_6.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5c0e2ff6d174af02a1659d4a",
+                "5a33e75ac4a2826c6e06d759"
+            ],
+            "CanSellOnRagfair": true,
+            "Ergonomics": 9,
+            "Slots": [
+                {
+                    "_id": "68815298f1f3fb85e3f4bab9",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_rear",
+                    "_parent": "688146f0804ed8230483b927",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "68814985f041a9d5029b5409",
+                                    "6881499888decf78e3f59ca7",
+                                    "5ae099925acfc4001a5fc7b3",
+                                    "6881497a58d2d3fa97aa6f3d"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense Mosin Nagant Stock",
+                "shortName": "Mosin",
+                "description": "A Stock manufactured by Echoes Defense for the Mosin Nagant"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [
+            "5c0e2ff6d174af02a1659d4a",
+            "5a33e75ac4a2826c6e06d759"
+        ],
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 3400,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 2,
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3400,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "6881476e0b6753add5380b28": {
+        "itemTplToClone": "5ae09bff5acfc4001562219d",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_barrel_1.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5c0e2f5cd174af02a012cfc9",
+                "5ae30db85acfc408fb139a05",
+                "55d459824bdc2d892f8b4573",
+                "5c78f2792e221600106f4683",
+                "5c78f26f2e221601da3581d1",
+                "5d00e0cbd7ad1a6c6566a42d",
+                "6357c98711fb55120211f7e1",
+                "5d00f63bd7ad1a59283b1c1e"
+            ],
+            "Velocity": 4.4,
+            "Weight": 1.7,
+            "Width": 3,
+            "Recoil": -6,
+            "HeatFactor": 0.81,
+            "ExtraSizeLeft": 3,
+            "Ergonomics": -5,
+            "CenterOfImpact": 0.038,
+            "Slots": [
+                {
+                    "_id": "688147729eda9e85b5a548c9",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "6881476e0b6753add5380b28",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5bbdb83fd4351e44f824c44b",
+                                    "5bc5a351d4351e003477a414",
+                                    "5bc5a35cd4351e450201232f",
+                                    "5cf79389d7f00c10941a0c4d",
+                                    "5cf79599d7f00c10875d9212",
+                                    "5cf67a1bd7f00c06585fb6f3",
+                                    "5b86a0e586f7745b600ccb23"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense \"Needle\" Front End Assembly",
+                "shortName": "Needle",
+                "description": "Echoes Defense Unique concept, Front End Assembly, for the Mosin Nagant"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_barrel"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 341,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 4,
+        "fleaPriceRoubles": 90867,
+        "handbookPriceRoubles": 36560,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "688148131b0b0fa0b7898762": {
+        "itemTplToClone": "5ae09bff5acfc4001562219d",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_barrel_2.bundle",
+                "rcid": ""
+            },
+            "Velocity": 10.4,
+            "Weight": 1.05,
+            "Width": 2,
+            "Recoil": -3,
+            "HeatFactor": 0.81,
+            "ExtraSizeLeft": 2,
+            "Ergonomics": -2,
+            "CenterOfImpact": 0.038,
+            "ConflictingItems": [
+                "5c0e2f5cd174af02a012cfc9",
+                "5ae30db85acfc408fb139a05",
+                "55d459824bdc2d892f8b4573",
+                "5c78f2792e221600106f4683",
+                "5c78f26f2e221601da3581d1",
+                "5d00e0cbd7ad1a6c6566a42d",
+                "6357c98711fb55120211f7e1",
+                "5d00f63bd7ad1a59283b1c1e"
+            ],
+            "Slots": [
+                {
+                    "_id": "68814814b775fecb1c175af6",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "688148131b0b0fa0b7898762",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5bbdb83fd4351e44f824c44b",
+                                    "5bc5a351d4351e003477a414",
+                                    "5bc5a35cd4351e450201232f",
+                                    "5cf79389d7f00c10941a0c4d",
+                                    "5cf79599d7f00c10875d9212",
+                                    "5cf67a1bd7f00c06585fb6f3",
+                                    "5b86a0e586f7745b600ccb23"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense \"Peg Leg\" Front End Asssembly",
+                "shortName": "Peg Leg",
+                "description": "Echoes Defense Unique concept, Front End Assembly, for the Mosin Nagant"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_barrel"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 341,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 4,
+        "fleaPriceRoubles": 90867,
+        "handbookPriceRoubles": 36560,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "68814800f91cd99eba93b68a": {
+        "itemTplToClone": "5ae09bff5acfc4001562219d",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_barrel_3.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5c0e2f5cd174af02a012cfc9",
+                "5ae30db85acfc408fb139a05",
+                "55d459824bdc2d892f8b4573",
+                "5c78f2792e221600106f4683",
+                "5c78f26f2e221601da3581d1",
+                "5d00e0cbd7ad1a6c6566a42d",
+                "6357c98711fb55120211f7e1",
+                "5d00f63bd7ad1a59283b1c1e"
+            ],
+            "Slots": [
+                {
+                    "_id": "688147ffee5433e2753902c2",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "68814800f91cd99eba93b68a",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5bbdb83fd4351e44f824c44b",
+                                    "5bc5a351d4351e003477a414",
+                                    "5bc5a35cd4351e450201232f",
+                                    "5cf79389d7f00c10941a0c4d",
+                                    "5cf79599d7f00c10875d9212",
+                                    "5cf67a1bd7f00c06585fb6f3",
+                                    "5b86a0e586f7745b600ccb23"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense Mosin Nagant Front End Assembly",
+                "shortName": "Mosin",
+                "description": "Echoes Defense Unique concept, Front End Assembly, for the Mosin Nagant"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_barrel"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 341,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 4,
+        "fleaPriceRoubles": 90867,
+        "handbookPriceRoubles": 36560,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "688147ee0bb9506a7b837b1b": {
+        "itemTplToClone": "5ae09bff5acfc4001562219d",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_barrel_4.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5c0e2f5cd174af02a012cfc9",
+                "5ae30db85acfc408fb139a05",
+                "55d459824bdc2d892f8b4573",
+                "5c78f2792e221600106f4683",
+                "5c78f26f2e221601da3581d1",
+                "5d00e0cbd7ad1a6c6566a42d",
+                "6357c98711fb55120211f7e1",
+                "5d00f63bd7ad1a59283b1c1e"
+            ],
+            "Velocity": 6.9,
+            "Weight": 1.8,
+            "Width": 3,
+            "Recoil": -14,
+            "HeatFactor": 0.61,
+            "ExtraSizeLeft": 3,
+            "Ergonomics": -14,
+            "CenterOfImpact": 0.038,
+            "Slots": [
+                {
+                    "_id": "688147ed0c6a2590e4dad658",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "688147ee0bb9506a7b837b1b",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5bbdb83fd4351e44f824c44b",
+                                    "5bc5a351d4351e003477a414",
+                                    "5bc5a35cd4351e450201232f",
+                                    "5cf79389d7f00c10941a0c4d",
+                                    "5cf79599d7f00c10875d9212",
+                                    "5cf67a1bd7f00c06585fb6f3",
+                                    "5b86a0e586f7745b600ccb23"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense \"Steampunk\" Front End Assembly",
+                "shortName": "Steampunk",
+                "description": "Echoes Defense Unique concept, Front End Assembly, for the Mosin Nagant"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_barrel"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 341,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 4,
+        "fleaPriceRoubles": 90867,
+        "handbookPriceRoubles": 36560,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "688147da863e8a2ded50343c": {
+        "itemTplToClone": "5ae09bff5acfc4001562219d",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_barrel_5.bundle",
+                "rcid": ""
+            },
+            "ConflictingItems": [
+                "5c0e2f5cd174af02a012cfc9",
+                "5ae30db85acfc408fb139a05",
+                "55d459824bdc2d892f8b4573",
+                "5c78f2792e221600106f4683",
+                "5c78f26f2e221601da3581d1",
+                "5d00e0cbd7ad1a6c6566a42d",
+                "6357c98711fb55120211f7e1",
+                "5d00f63bd7ad1a59283b1c1e"
+            ],
+            "Velocity": 12.3,
+            "Weight": 2.15,
+            "Width": 5,
+            "Recoil": -20,
+            "HeatFactor": 0.81,
+            "ExtraSizeLeft": 5,
+            "Ergonomics": -20,
+            "CenterOfImpact": 0.038,
+            "Slots": [
+                {
+                    "_id": "688147d9c162725e4061c6f3",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "688147da863e8a2ded50343c",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5bbdb83fd4351e44f824c44b",
+                                    "5bc5a351d4351e003477a414",
+                                    "5bc5a35cd4351e450201232f",
+                                    "5cf79389d7f00c10941a0c4d",
+                                    "5cf79599d7f00c10875d9212",
+                                    "5cf67a1bd7f00c06585fb6f3",
+                                    "5b86a0e586f7745b600ccb23"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense Hull Front End Assembly",
+                "shortName": "Hull",
+                "description": "Echoes Defense Unique concept, Front End Assembly, for the Mosin Nagant"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_barrel"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": true,
+        "traderId": "PEACEKEEPER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 341,
+                "_tpl": "DOLLARS"
+            }
+        ],
+        "loyallevelitems": 4,
+        "fleaPriceRoubles": 90867,
+        "handbookPriceRoubles": 36560,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "68814881374149d69521a06c": {
+        "itemTplToClone": "5bae13ded4351e44f824bf38",
+        "parentId": "MAGAZINE",
+        "handbookParentId": "MOD_MAGAZINE",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_mag_1.bundle",
+                "rcid": ""
+            },
+            "VisibleAmmoRangesString": "1-9",
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "688148879bbf13471cdfc7e7",
+                    "_parent": "68814881374149d69521a06c",
+                    "_max_count": 10,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5e023d34e8a400319a28ed44",
+                                    "5e023d48186a883be655e551",
+                                    "5e023cf8186a883be655e54f",
+                                    "59e77a2386f7742ee578960a",
+                                    "5887431f2459777e1612938f",
+                                    "560d61e84bdc2da74d8b4571",
+                                    "64b8f7c241772715af0f9c3d",
+                                    "64b8f7968532cf95ee0a0dbf",
+                                    "64b8f7b5389d7ffd620ccba2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense 10 round Mosin Nagant Magazine",
+                "shortName": "Echoes",
+                "description": "a 10 round detachable magazine for the Mosin Nagant."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": false,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 6453,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "fleaPriceRoubles": 45230,
+        "handbookPriceRoubles": 28938,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "688148c8b3c62ac647fa167f": {
+        "itemTplToClone": "5bae13ded4351e44f824bf38",
+        "parentId": "MAGAZINE",
+        "handbookParentId": "MOD_MAGAZINE",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_mag_2.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": -8,
+            "VisibleAmmoRangesString": "1-19",
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "688148cdf366e27a485cd362",
+                    "_parent": "688148c8b3c62ac647fa167f",
+                    "_max_count": 20,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5e023d34e8a400319a28ed44",
+                                    "5e023d48186a883be655e551",
+                                    "5e023cf8186a883be655e54f",
+                                    "59e77a2386f7742ee578960a",
+                                    "5887431f2459777e1612938f",
+                                    "560d61e84bdc2da74d8b4571",
+                                    "64b8f7c241772715af0f9c3d",
+                                    "64b8f7968532cf95ee0a0dbf",
+                                    "64b8f7b5389d7ffd620ccba2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense 20 round Mosin Nagant Magazine",
+                "shortName": "Echoes",
+                "description": "a 20 round detachable magazine for the Mosin Nagant."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_magazine"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": false,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 6453,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "fleaPriceRoubles": 45230,
+        "handbookPriceRoubles": 28938,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "6881497a58d2d3fa97aa6f3d": {
+        "itemTplToClone": "5ae099925acfc4001a5fc7b3",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_irons_1.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense Crescent Rear Iron Sight",
+                "shortName": "Crescent",
+                "description": "A rear iron sight for the Mosin Nagant. Manufactured by Echoes Defense"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_rear"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": false,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 6453,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "fleaPriceRoubles": 45230,
+        "handbookPriceRoubles": 28938,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "6881499888decf78e3f59ca7": {
+        "itemTplToClone": "5ae099925acfc4001a5fc7b3",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_irons_2.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense Blood Moon Rear Iron Sight",
+                "shortName": "Blood",
+                "description": "A rear iron sight for the Mosin Nagant. Manufactured by Echoes Defense"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_rear"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": false,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 6453,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "fleaPriceRoubles": 45230,
+        "handbookPriceRoubles": 28938,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    },
+    "68814985f041a9d5029b5409": {
+        "itemTplToClone": "5ae099925acfc4001a5fc7b3",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Mosin/mosin_irons_3.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Echoes Defense Castle Rear Iron Sight",
+                "shortName": "Castle",
+                "description": "A rear iron sight for the Mosin Nagant. Manufactured by Echoes Defense"
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_rear"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "addtoTraders": false,
+        "traderId": "SKIER",
+        "traderItems": [
+            {
+                "unlimitedCount": true,
+                "stackObjectsCount": 99
+            }
+        ],
+        "barterScheme": [
+            {
+                "count": 6453,
+                "_tpl": "ROUBLES"
+            }
+        ],
+        "loyallevelitems": 3,
+        "fleaPriceRoubles": 45230,
+        "handbookPriceRoubles": 28938,
+        "addtoStaticLootContainers": true,
+        "addtoragfair": true,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+                "Probability": 7
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 6
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+                "Probability": 5
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+                "Probability": 1
+            }
+        ]
+    }
+}

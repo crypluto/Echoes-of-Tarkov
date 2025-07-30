@@ -1,37 +1,7 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    var desc = Object.getOwnPropertyDescriptor(m, k);
-    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
-    }
-    Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || (function () {
-    var ownKeys = function(o) {
-        ownKeys = Object.getOwnPropertyNames || function (o) {
-            var ar = [];
-            for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
-            return ar;
-        };
-        return ownKeys(o);
-    };
-    return function (mod) {
-        if (mod && mod.__esModule) return mod;
-        var result = {};
-        if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
-        __setModuleDefault(result, mod);
-        return result;
-    };
-})();
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CustomItemService = void 0;
 const configConsts_1 = require("./references/configConsts");
@@ -40,24 +10,23 @@ const configConsts_3 = require("./references/configConsts");
 const items_1 = require("./references/items");
 const itemBaseClasses_1 = require("./references/itemBaseClasses");
 const itemHandbookCategories_1 = require("./references/itemHandbookCategories");
-const LogTextColor_1 = require("C:/snapshot/project/obj/models/spt/logging/LogTextColor");
-const fs = __importStar(require("node:fs"));
-const path = __importStar(require("node:path"));
+const node_fs_1 = __importDefault(require("node:fs"));
+const node_path_1 = __importDefault(require("node:path"));
 class CustomItemService {
     instanceManager;
     preSptLoad(instanceManager) {
         this.instanceManager = instanceManager;
     }
     postDBLoad() {
-        const configPath = path.join(__dirname, "../db/items");
-        const configFiles = fs
+        const configPath = node_path_1.default.join(__dirname, "../db/Items");
+        const configFiles = node_fs_1.default
             .readdirSync(configPath)
             .filter((file) => !file.includes("BaseItemReplacement"));
         let numItemsAdded = 0;
         for (const file of configFiles) {
-            const filePath = path.join(configPath, file);
+            const filePath = node_path_1.default.join(configPath, file);
             try {
-                const fileContents = fs.readFileSync(filePath, "utf-8");
+                const fileContents = node_fs_1.default.readFileSync(filePath, "utf-8");
                 const config = JSON.parse(fileContents);
                 for (const itemId in config) {
                     const itemConfig = config[itemId];
@@ -69,7 +38,7 @@ class CustomItemService {
                         }
                         this.instanceManager.customItem.createItemFromClone(exampleCloneItem);
                         this.processStaticLootContainers(itemConfig, itemId);
-                        this.processModSlots(itemConfig, [finalItemTplToClone], itemId);
+                        this.processModSlots(itemConfig, finalItemTplToClone, itemId);
                         this.processInventorySlots(itemConfig, itemId);
                         this.processMasterySections(itemConfig, itemId);
                         this.processWeaponPresets(itemConfig, itemId);
@@ -89,19 +58,11 @@ class CustomItemService {
                 console.error(fileError);
             }
         }
-        if (this.instanceManager.debug) {
-            if (numItemsAdded > 0) {
-                this.instanceManager.logger.log(`[${this.instanceManager.modName}] Database: Loaded ${numItemsAdded} custom items.`, LogTextColor_1.LogTextColor.GREEN);
-            }
-            else {
-                this.instanceManager.logger.log(`[${this.instanceManager.modName}] Database: No custom items loaded.`, LogTextColor_1.LogTextColor.GREEN);
-            }
-        }
         // Post-item processing (e.g., bot inventories, quest modifications)
         for (const file of configFiles) {
-            const filePath = path.join(configPath, file);
+            const filePath = node_path_1.default.join(configPath, file);
             try {
-                const fileContents = fs.readFileSync(filePath, "utf-8");
+                const fileContents = node_fs_1.default.readFileSync(filePath, "utf-8");
                 const config = JSON.parse(fileContents);
                 for (const itemId in config) {
                     const itemConfig = config[itemId];
@@ -293,15 +254,7 @@ class CustomItemService {
                 if (addToModSlots) {
                     for (const modSlot of parentItem._props.Slots) {
                         if (lowercaseModSlots.includes(modSlot._name.toLowerCase())) {
-                            if (!modSlot._props.filters) {
-                                modSlot._props.filters = [
-                                    {
-                                        AnimationIndex: 0,
-                                        Filter: []
-                                    }
-                                ];
-                            }
-                            if (!modSlot._props.filters[0].Filter.includes(itemId)) {
+                            if (!modSlot._props.filters[0].Filter.includes(itemId) && modSlot._props.filters?.[0]?.Filter?.includes(finalItemTplToClone)) {
                                 modSlot._props.filters[0].Filter.push(itemId);
                                 if (this.instanceManager.debug) {
                                     console.log(`Successfully added item ${itemId} to the filter of mod slot ${modSlot._name} for parent item ${parentItemId}`);
